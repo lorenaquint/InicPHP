@@ -69,6 +69,20 @@
     //Linea en la que estoy ubicada
     echo "<br>";
     echo __LINE__;
+    //Ruta completa del archivo
+    echo "<br>";
+    echo "Ruta completa del archivo<br>";
+    echo __FILE__;
+    //Nombre d euna función
+    echo "<br>";
+    function saludar()
+    {
+        echo __FUNCTION__;
+    }
+    saludar();
+    
+
+    
  ?>
 </body>
 </html>

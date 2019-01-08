@@ -79,7 +79,14 @@
             { 
             echo "Tu nombre es " .$nombre;
             }
-        
+    //**************GO TO*************************************/
+     goto marca;
+     echo "<h3>Instrucción 1</h3>" ;
+     echo "<h3>Instrucción 2</h3>" ;
+     echo "<h3>Instrucción 3</h3>" ;
+     echo "<h3>Instrucción 4</h3>" ;
+     marca:
+     echo "<h1>Me he saltado cuatro echos</h1>" ;
      //*********************SENTENCIA SWITCH********************************** */
      echo "<h1>SENTENCIAS SWITCH</h1>";
      echo "<br>";
